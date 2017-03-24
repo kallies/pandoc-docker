@@ -25,4 +25,3 @@ WORKDIR /source
 
 ENTRYPOINT ["/bin/bash"]
 
-CMD ["--help"]
