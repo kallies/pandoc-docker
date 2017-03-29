@@ -4,7 +4,7 @@
 
 Based on jagregory/pandoc and modified for usage with [gitlab-ci](https://gitlab.com/gitlab-org/gitlab-ci-multi-runner/issues/1421).
 
-    docker run --rm --entrypoint pandoc kallies/pandoc-docker --help
+    docker run --rm kallies/pandoc-docker
 
     pandoc [OPTIONS] [FILES]
     Input formats:  docbook, haddock, html, json, latex, markdown, markdown_github,

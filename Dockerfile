@@ -28,5 +28,4 @@ RUN cabal update && cabal install pandoc-${PANDOC_VERSION}
 
 WORKDIR /source
 
-ENTRYPOINT ["/bin/bash"]
-
+CMD ["pandoc","--help"]
