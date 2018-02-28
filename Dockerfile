@@ -13,6 +13,7 @@ RUN apt-get update -y \
     texlive-latex-extra \
     texlive-fonts-extra \
     texlive-bibtex-extra \
+    texlive-lang-german \
     fontconfig \
     lmodern
 
