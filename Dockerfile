@@ -15,6 +15,7 @@ RUN apt-get update -y \
     texlive-bibtex-extra \
     texlive-lang-german \
     fontconfig \
+    unzip \
     lmodern
 
 USER pandoc
