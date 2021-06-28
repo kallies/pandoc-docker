@@ -1,4 +1,4 @@
-FROM haskell:8.0
+FROM haskell:8.8
 
 MAINTAINER Lukas Kallies
 
