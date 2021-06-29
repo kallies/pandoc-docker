@@ -16,7 +16,8 @@ RUN apt-get update -y \
     fontconfig \
     unzip \
     lmodern \
-    ghc
+    ghc \
+  && apt-get clean
 
 USER pandoc
 
